@@ -1,0 +1,162 @@
+body,
+html {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+
+}
+
+.row {
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    color: rgb(127, 223, 255);
+}
+
+h2 {
+    color: rgb(0, 8, 255)
+}
+
+p {
+    color: rgb(68, 0, 255)
+}
+
+.search {
+    background-color: red;
+    color: white;
+}
+
+.login {
+    background-color: blue;
+    color: azure;
+}
+
+.register {
+    background-color: blue;
+    color: azure;
+}
+.form-popup{
+    background-color: #bea4c4;
+    min-height: 19em;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    width: 50%;
+  }
+  #searchDate {
+    background-color: #ea90a3;
+    color: rgb(116, 142, 221);
+    font-size: 15pt;
+    width: 15em;
+    min-height: 5em;
+  }
+  #searchEvent {
+    background-color: #ea90a3;
+    color: rgb(116, 142, 221);
+    font-size: 15pt;
+    width: 15em;
+    min-height: 5em;
+  }
+  .form-container {
+    background-color: #1192ca;
+    border-bottom: 1px solid #df6b6b;
+}
+#login-form {
+    font-weight: bold;
+    color: #d790b8;
+    font-size: 19px;
+}
+.btn{
+    font-weight: bold;
+    color: #e371b2;
+    font-size: 19px;
+}
+#edit-profile{
+    background-color: #7a5cdd;
+    color: rgb(116, 142, 221);
+    font-size: 15pt;
+    width: 15em;
+    min-height: 5em;
+}
+/*
+<<<<<<< HEAD
+
+
+ 
+  
+  #searchByDate {
+    color: rgb(126, 98, 206);
+    font-weight: bold;
+  }
+  
+ 
+  
+  .card-center {
+    background-color: #896bbc;
+    color: rgb(208, 182, 117);
+    font-size: 20px;
+  }
+  
+  
+  
+  .card-wide {
+      color: #e9df79;
+      font-size: 20px;
+  }
+
+  .reviewerRating{
+      background-color: #e3d7c3;
+      color: rgb(116, 142, 221);
+      font-size: 13pt;
+      width: 10em;
+      min-height: 5em;
+  }
+  .reviewHeading{
+      background-color: #f1c476;
+      color: rgb(43, 79, 186);
+      font-size: 13pt;
+      width: 11em;
+      min-height: 5em;
+  }
+  .reviewerName{
+      background-color: #bd9246;
+      color: rgb(70, 96, 174);
+      font-size: 15pt;
+      width: 15em;
+      min-height: 5em;
+  }
+  .event_name{
+      background-color: #52da58;
+      color: rgb(71, 100, 187);
+      font-size: 15pt;
+      width: 15em;
+      min-height: 5em;
+  }
+  .reviewText{
+      background-color: #91473f;
+      color: rgb(116, 142, 221);
+      font-size: 15pt;
+      width: 15em;
+      min-height: 5em;
+  }
+
+  #firstName{
+      background-color: #d975c2;
+      color: rgb(116, 142, 221);
+      font-size: 15pt;
+      width: 15em;
+      min-height: 5em;
+  }

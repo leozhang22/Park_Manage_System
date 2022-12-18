@@ -1,0 +1,38 @@
+<main>
+    {{#if error}}
+    <p>{{error_message}}</p>
+    {{/if}}
+    <h1>{{userName}}</h1>
+    <h2>{{firstName}} {{lastName}} </h2>
+    <h3>{{age}}</h3>
+    </br>
+    <p><a href="/user/myProfile">Edit Profile</a></p>
+
+
+    <div class="card-wide" id="right">
+        <h2>My register history</h2>
+        {{#each history}}
+        <div>
+            <a href="/events/{{this.eventId}}">{{this.eventName}}</a>
+        </div>
+        {{/each}}
+        <h2>Reviews</h2>
+        {{#each reviews}}
+        <div>
+                <div class="reviewHeading">
+                    <div class="reviewerName">
+                        <p class = "event_name"><a href="/events/{{this.review.eventId}}">{{this.event.name}}</a></p>
+                    </div>
+                </div>
+                <div class="reviewerRating">
+                    <p class="event_rating">>Your Rating: {{this.review.rating}}</a></p>
+                </div>
+            </div>
+
+            <div class="reviewText">
+                <p>{{this.review.text}}</p>
+            </div>
+        </div>
+        {{/each}}
+
+</main>

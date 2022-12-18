@@ -1,0 +1,29 @@
+<main>
+    {{#if error}}
+        <p>{{error_message}}</p>
+    {{/if}}
+
+                <h1>event</h1>
+            <div class="ratingFilter">
+                <div class="dropdown">
+                    <button class="dropbtn">Sort by Rating</button>
+                    <div class="dropdown-content">
+                        <p onClick="sortCardsAscending()" class="btn">Low to High</p>
+                    </div>
+                </div>
+            </div>
+    <div class = "event_Collection"></div>
+    {{#each events}}
+        <div class= "card" onclick="location.href='../events/{{this._id}}';">
+            <h2><a href="/events/{{this._id}}">{{this.name}}</a></h2>
+            <p>{{this.date}}</p>
+            <p>{{this.type}}</p>
+            <p>{{this.space}}/{{this.capacity}}</p>  
+
+            <p>{{this.overallRating}}/5</p>
+            <br/>
+        </div>
+    {{/each}}
+    </div>
+    <script src="/public/javascript/sort.js"></script>
+</main>
