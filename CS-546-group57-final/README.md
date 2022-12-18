@@ -20,4 +20,4 @@ If you'd like to log in to an existing manager account, feel free to log using t
   Or, make your own account on the login page.   
 
 ## Github Repo Link
-https://github.com/leozhang22/Park-Manage-System
+https://github.com/leozhang22/Park_Manage_System
